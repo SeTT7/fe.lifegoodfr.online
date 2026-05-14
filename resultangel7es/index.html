@@ -605,7 +605,7 @@ function goToCheckout() {
     <p class="cta-label">→ El cántico que tu ángel preparó para ti — desbloquéalo antes de que la ventana se cierre.</p>
     <button class="cta-btn" onclick="goToCheckout()">
       ✦ DESBLOQUEAR EL CÁNTICO SAGRADO AHORA ✦
-      <span class="cta-btn-sub">Acceso instantáneo al kit completo · solo $8.90 USD</span>
+      <span class="cta-btn-sub">Acceso instantáneo al kit completo · solo <span id="topCtaPrice">$8.90 USD</span></span>
     </button>
   </div>
 </section>
@@ -1030,7 +1030,8 @@ function goToCheckout() {
     pickerBtn: document.getElementById('countryPickerBtn'),
     list:      document.getElementById('countryList'),
     oldPrice:  document.getElementById('oldPriceDisplay'),
-    ctaText:   document.getElementById('ctaPriceText')
+    ctaText:   document.getElementById('ctaPriceText'),
+    topCta:    document.getElementById('topCtaPrice')
   };
 
   function applyCountry(country) {
@@ -1048,6 +1049,7 @@ function goToCheckout() {
       els.usdSide.style.visibility = 'hidden';
       els.oldPrice.textContent = '$' + OLD_USD.toFixed(2);
       els.ctaText.textContent = 'DESBLOQUEAR EL CÁNTICO SAGRADO — $' + rounded.toFixed(2);
+      if (els.topCta) els.topCta.textContent = '$' + rounded.toFixed(2) + ' USD';
     } else {
       // Local currency: large rounded value + small USD side label.
       els.symbol.textContent = country.symbol;
@@ -1059,6 +1061,7 @@ function goToCheckout() {
       var oldRounded = smartRound(OLD_USD * country.rate);
       els.oldPrice.textContent = country.symbol + formatNumber(oldRounded, country.locale);
       els.ctaText.textContent = 'DESBLOQUEAR — ' + country.symbol + formatNumber(rounded, country.locale);
+      if (els.topCta) els.topCta.textContent = country.symbol + formatNumber(rounded, country.locale);
     }
 
     try { localStorage.setItem('preferredCountry', country.code); } catch (e) {}
