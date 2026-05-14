@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark">
+<title>Tu Kit Sagrado Está Listo — El Cántico del Arcángel Miguel</title>
+<script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
+<!-- CHECKOUT REDIRECT -->
+<script>
+var CHECKOUT_URL = 'https://pay.mycheckoutt.com/019df633-cb46-721f-873a-ee2d86e49a28?ref=';
+
+function buildRedirectUrl(base) {
+  var params = new URLSearchParams(window.location.search);
+  var keys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','fbclid','gclid','ttclid','src','sck'];
+  var forward = new URLSearchParams();
+  keys.forEach(function(k) { if (params.get(k)) forward.set(k, params.get(k)); });
+  var qs = forward.toString();
+  return qs ? base + (base.indexOf('?') >= 0 ? '&' : '?') + qs : base;
+}
+function goToCheckout() {
+  if (!CHECKOUT_URL) return;
+  window.location.href = buildRedirectUrl(CHECKOUT_URL);
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    color-scheme: dark;
+    --gold: #F8E5B0;
+    --gold-light: #FFF5E0;
+    --gold-dark: #8B6914;
+    --red: #C0392B;
+    --red-bright: #E74C3C;
+    --dark: #160E08;
+    --dark2: #130E08;
+    --cream: #F5F0E8;
+    --white: #FFFFFF;
+    --light-color: #F8E5B0;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--dark); color: var(--cream); font-family: 'Lora', Georgia, serif; overflow-x: hidden; }
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none; z-index: 999; opacity: 0.4;
+  }
+  .urgency-bar {
+    background: var(--red); text-align: center; padding: 10px 20px;
+    font-family: 'Cinzel', serif; font-size: 13px; letter-spacing: 2px;
+    text-transform: uppercase; color: white;
+    animation: pulse-bar 2s ease-in-out infinite; position: relative; z-index: 10;
+  }
+  @keyframes pulse-bar { 0%, 100% { background: var(--red); } 50% { background: #8B0000; } }
+  .hero {
+    background: radial-gradient(ellipse at 50% 0%, #2A1908 0%, #160E08 70%);
+    padding: 60px 20px 40px; text-align: center; position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: ''; position: absolute; top: -50%; left: 50%; transform: translateX(-50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(201,168,76,0.12) 0%, transparent 70%); pointer-events: none;
+  }
+  .rays { position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 100%; max-width: 800px; height: 300px; pointer-events: none; opacity: 0.07; }
+  .hero-eyebrow { font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 4px; text-transform: uppercase; color: var(--gold); margin-bottom: 24px; opacity: 0; animation: fadeUp 0.8s ease forwards 0.2s; position: relative; }
+  .hero-headline { font-family: 'Cinzel', serif; font-size: clamp(28px, 5vw, 54px); font-weight: 900; line-height: 1.15; color: var(--white); max-width: 820px; margin: 0 auto 20px; opacity: 0; animation: fadeUp 0.8s ease forwards 0.4s; position: relative; }
+  .hero-headline .gold { color: var(--gold-light); }
+  .hero-sub { font-size: clamp(16px, 2.5vw, 20px); color: #EDDDC0; max-width: 640px; margin: 0 auto 40px; line-height: 1.7; font-style: italic; opacity: 0; animation: fadeUp 0.8s ease forwards 1.4s; position: relative; }
+
+  .cta-wrap { padding: 10px 20px 0; text-align: center; opacity: 0; animation: fadeUp 0.8s ease forwards 1.6s; position: relative; }
+  .cta-label { font-size: 13px; color: var(--gold); font-style: italic; margin-bottom: 12px; letter-spacing: 0.5px; }
+  .cta-btn { display: inline-block; background: linear-gradient(135deg, #C0392B 0%, #8B0000 100%); color: white; font-family: 'Cinzel', serif; font-size: clamp(16px, 2.5vw, 22px); font-weight: 700; padding: 20px 48px; border-radius: 4px; text-decoration: none; letter-spacing: 1px; box-shadow: 0 8px 30px rgba(192,57,43,0.5), 0 0 0 1px rgba(201,168,76,0.3); transition: all 0.2s; position: relative; overflow: hidden; cursor: pointer; border: none; width: 100%; max-width: 560px; }
+  .cta-btn::before { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent); animation: shimmer 2.5s infinite; }
+  @keyframes shimmer { 0% { left: -100%; } 100% { left: 100%; } }
+  .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(192,57,43,0.7), 0 0 0 1px rgba(201,168,76,0.5); }
+  .cta-btn-sub { display: block; font-family: 'Lora', serif; font-size: 13px; font-weight: 400; font-style: italic; margin-top: 4px; opacity: 0.85; letter-spacing: 0; }
+  .body-section { max-width: 680px; margin: 0 auto; padding: 50px 24px 20px; }
+  .divider-gold { display: flex; align-items: center; gap: 16px; margin-bottom: 40px; }
+  .divider-gold::before, .divider-gold::after { content: ''; flex: 1; height: 1px; background: linear-gradient(to right, transparent, var(--gold-dark), transparent); }
+  .divider-gold span { color: var(--gold); font-size: 20px; }
+  .body-p { font-size: clamp(16px, 2vw, 19px); line-height: 1.85; color: #D4C9B5; margin-bottom: 24px; }
+  .body-p strong { color: var(--white); font-weight: 600; }
+  .body-p .highlight { color: var(--gold-light); font-style: italic; }
+  .warning-box { background: rgba(139,0,0,0.15); border: 1px solid rgba(192,57,43,0.4); border-left: 4px solid var(--red); border-radius: 4px; padding: 24px; margin: 36px 0; }
+  .warning-title { font-family: 'Cinzel', serif; font-size: 14px; letter-spacing: 2px; color: #E74C3C; text-transform: uppercase; margin-bottom: 12px; }
+  .warning-text { font-size: 16px; line-height: 1.75; color: #EDDDC0; }
+  .timer-section { text-align: center; padding: 40px 20px; }
+  .timer-label { font-family: 'Cinzel', serif; font-size: 12px; letter-spacing: 3px; color: var(--gold); text-transform: uppercase; margin-bottom: 12px; }
+  .timer-display { font-family: 'Cinzel', serif; font-size: clamp(48px, 10vw, 80px); font-weight: 900; color: var(--red-bright); line-height: 1; text-shadow: 0 0 30px rgba(231,76,60,0.5); letter-spacing: 4px; }
+  .timer-sub { font-size: 14px; color: #E8DBC4; margin-top: 10px; font-style: italic; }
+  .footer { text-align: center; padding: 40px 20px; border-top: 1px solid rgba(201,168,76,0.1); margin-top: 40px; }
+  .footer p { font-size: 12px; color: #5a4e3e; line-height: 1.8; max-width: 500px; margin: 0 auto; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes shake { 0%, 100% { transform: translateX(0); } 20% { transform: translateX(-6px); } 40% { transform: translateX(6px); } 60% { transform: translateX(-4px); } 80% { transform: translateX(4px); } }
+  .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+
+  .angel-reveal { max-width: 680px; margin: 0 auto 28px; opacity: 0; animation: fadeUp 0.9s ease forwards 0.8s; position: relative; }
+  .angel-reveal-frame {
+    position: relative;
+    border-radius: 6px;
+    border: 3px solid var(--gold-dark);
+    box-shadow: 0 0 60px rgba(201,168,76,0.35), 0 20px 60px rgba(0,0,0,0.85);
+    overflow: hidden;
+    background: #060300;
+  }
+  .angel-reveal-frame > svg.angel-illust { display: block; width: 100%; height: auto; position: relative; z-index: 1; }
+
+  .celestial-ring {
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 92%; height: 92%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 2;
+    animation: slowRotate 90s linear infinite;
+    opacity: 0.55;
+    mix-blend-mode: screen;
+  }
+  .celestial-ring svg { width: 100%; height: 100%; }
+  @keyframes slowRotate { to { transform: translate(-50%, -50%) rotate(360deg); } }
+
+  .halo-pulse {
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 60%; height: 60%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--light-color) 0%, transparent 60%);
+    opacity: 0.18;
+    animation: haloPulse 5s ease-in-out infinite;
+    z-index: 0;
+  }
+  @keyframes haloPulse { 0%, 100% { opacity: 0.12; transform: translate(-50%, -50%) scale(0.95); } 50% { opacity: 0.28; transform: translate(-50%, -50%) scale(1.05); } }
+
+  .angel-reveal-badge {
+    margin-top: 22px; padding: 24px 40px; text-align: center;
+    background: linear-gradient(135deg, rgba(26,18,8,0.95) 0%, rgba(15,10,4,0.95) 100%);
+    border: 1px solid rgba(201,168,76,0.35);
+    border-radius: 6px;
+    box-shadow: 0 0 40px rgba(201,168,76,0.18);
+    position: relative;
+  }
+  .angel-reveal-badge::before, .angel-reveal-badge::after { content: '✦'; position: absolute; top: 50%; transform: translateY(-50%); color: var(--gold); font-size: 18px; opacity: 0.6; }
+  .angel-reveal-badge::before { left: 18px; }
+  .angel-reveal-badge::after { right: 18px; }
+  .angel-reveal-prefix { display: block; font-family: 'Cinzel', serif; font-size: 12px; letter-spacing: 6px; color: var(--gold); text-transform: uppercase; margin-bottom: 10px; opacity: 0.85; }
+  .angel-reveal-name {
+    display: block; font-family: 'Cinzel', serif;
+    font-size: clamp(26px, 5.5vw, 46px); font-weight: 900;
+    color: var(--gold-light); line-height: 1.15;
+    text-shadow: 0 0 40px rgba(240,208,128,0.5);
+    margin-bottom: 12px;
+    opacity: 0;
+    animation: angelNameReveal 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards 1.0s;
+  }
+  @keyframes angelNameReveal {
+    0%   { opacity: 0; letter-spacing: 16px; transform: scale(0.92); filter: blur(2px); }
+    50%  { opacity: 0.9; letter-spacing: 8px; filter: blur(0.5px); }
+    100% { opacity: 1; letter-spacing: 4px; transform: scale(1); filter: blur(0); }
+  }
+  .angel-reveal-title {
+    display: block; font-family: 'Lora', serif; font-size: 13px;
+    color: #EDDDC0; font-style: italic; letter-spacing: 1.5px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 2.4s;
+  }
+  .dots-anim { display: inline-block; color: var(--gold-light); letter-spacing: 4px; animation: dotsPulse 1.6s ease-in-out infinite; }
+  @keyframes dotsPulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+
+  .personal-card {
+    max-width: 680px; margin: 16px auto 32px;
+    background: linear-gradient(135deg, rgba(15,10,4,0.95) 0%, rgba(21,16,10,0.9) 100%);
+    border: 1px solid rgba(201,168,76,0.35);
+    border-left: 3px solid var(--light-color);
+    border-radius: 8px;
+    padding: 24px 28px;
+    box-shadow: 0 0 40px rgba(201,168,76,0.12), 0 12px 30px rgba(0,0,0,0.6);
+    opacity: 0; animation: fadeUp 0.9s ease forwards 2.7s;
+  }
+  .personal-row {
+    display: flex; gap: 14px; padding: 12px 0;
+    border-bottom: 1px solid rgba(201,168,76,0.1);
+    align-items: center;
+  }
+  .personal-row:last-child { border-bottom: none; padding-bottom: 4px; }
+  .personal-row:first-child { padding-top: 4px; }
+  .personal-label {
+    flex: 0 0 44%;
+    font-family: 'Cinzel', serif; font-size: 11px;
+    letter-spacing: 2px; text-transform: uppercase;
+    color: var(--gold-dark);
+  }
+  .personal-value {
+    flex: 1; font-size: 15px; line-height: 1.5;
+    color: var(--gold-light); font-weight: 600;
+  }
+
+  .personal-scripture {
+    text-align: center; max-width: 600px; margin: 30px auto;
+    padding: 22px 28px;
+    background: linear-gradient(135deg, rgba(15,10,4,0.7) 0%, rgba(21,16,10,0.5) 100%);
+    border-top: 1px solid rgba(201,168,76,0.3);
+    border-bottom: 1px solid rgba(201,168,76,0.3);
+    font-family: 'Lora', serif; font-style: italic;
+    font-size: clamp(15px, 2vw, 17px);
+    color: #EDDDC0; line-height: 1.8;
+  }
+  .personal-scripture-ref {
+    display: block; margin-top: 10px;
+    font-family: 'Cinzel', serif; font-size: 11px;
+    letter-spacing: 2px; color: var(--gold);
+    font-style: normal; text-transform: uppercase;
+  }
+
+  .modules-wrap { margin: 30px 0 10px; }
+  .modules-title { font-family: 'Cinzel', serif; font-size: clamp(15px, 2.5vw, 18px); letter-spacing: 3px; color: var(--gold); text-transform: uppercase; text-align: center; margin-bottom: 8px; }
+  .modules-sub { text-align: center; font-size: 14px; color: #E8DBC4; font-style: italic; margin-bottom: 24px; }
+  .modules-sub em { color: var(--gold-light); }
+  .modules-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .module-item {
+    display: flex; align-items: flex-start; gap: 16px;
+    padding: 18px 20px;
+    background: linear-gradient(135deg, #0F0A04 0%, #1A1208 100%);
+    border: 1px solid rgba(201,168,76,0.22);
+    border-radius: 6px;
+    transition: border-color 0.25s, transform 0.2s;
+  }
+  .module-item:hover { border-color: rgba(201,168,76,0.5); transform: translateX(4px); }
+  .module-item-bonus { border-color: rgba(240,208,128,0.45); background: linear-gradient(135deg, #1a1208 0%, #221708 100%); box-shadow: 0 0 30px rgba(201,168,76,0.12); }
+  .module-num { flex: 0 0 38px; height: 38px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--gold-dark); border-radius: 50%; color: var(--gold-light); font-family: 'Cinzel', serif; font-weight: 900; font-size: 14px; letter-spacing: 1px; background: rgba(201,168,76,0.06); margin-top: 2px; }
+  .module-item-bonus .module-num { border-color: var(--gold-light); color: var(--gold-light); background: rgba(240,208,128,0.12); }
+  .module-body { flex: 1; }
+  .module-title { font-family: 'Cinzel', serif; font-size: clamp(15px, 2vw, 17px); font-weight: 700; color: var(--white); letter-spacing: 1px; margin-bottom: 4px; line-height: 1.3; }
+  .module-desc { font-size: 14px; line-height: 1.55; color: #EDDDC0; margin: 0; }
+
+  .miracle-section { margin: 36px 0; }
+  .miracle-title { font-family: 'Cinzel', serif; font-size: clamp(15px, 2.4vw, 19px); letter-spacing: 3px; color: var(--gold); text-transform: uppercase; text-align: center; margin-bottom: 26px; }
+
+  .testimonial-card {
+    position: relative;
+    background: linear-gradient(135deg, #1B130A 0%, #221708 100%);
+    border: 1px solid rgba(201,168,76,0.32);
+    border-radius: 8px;
+    padding: 24px 26px 22px;
+    margin-bottom: 14px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.55);
+  }
+  .testimonial-card::before {
+    content: '"'; position: absolute; top: 6px; left: 16px;
+    font-family: 'Cinzel', serif; font-size: 64px;
+    color: var(--gold-dark); opacity: 0.5;
+    line-height: 1; pointer-events: none;
+  }
+  .testimonial-quote {
+    font-family: 'Lora', serif; font-size: 16px; line-height: 1.75;
+    color: #EDDDC0; font-style: italic;
+    margin: 0 0 14px; padding-left: 8px; position: relative; z-index: 1;
+  }
+  .testimonial-quote strong { color: var(--white); font-style: normal; }
+  .testimonial-author { font-family: 'Cinzel', serif; font-size: 12px; letter-spacing: 2px; color: var(--gold); text-align: right; padding-top: 6px; border-top: 1px solid rgba(201,168,76,0.18); }
+  .testimonial-author strong { color: var(--gold-light); font-weight: 700; }
+  .testimonial-author-loc { color: #B0A088; font-style: italic; letter-spacing: 1px; }
+
+  .pricing-section { max-width: 680px; margin: 30px auto 10px; padding: 0 24px; }
+  .pricing-card {
+    position: relative;
+    background: linear-gradient(135deg, #15100A 0%, #0A0705 100%);
+    border: 2px solid var(--gold-dark);
+    border-radius: 10px;
+    padding: 36px 28px 32px;
+    text-align: center;
+    box-shadow: 0 0 80px rgba(201,168,76,0.18), 0 25px 60px rgba(0,0,0,0.85);
+  }
+  .pricing-card::before {
+    content: ''; position: absolute; inset: -2px; border-radius: 10px; padding: 2px;
+    background: linear-gradient(135deg, transparent 0%, rgba(240,208,128,0.4) 50%, transparent 100%);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor; mask-composite: exclude;
+    pointer-events: none;
+  }
+  .pricing-eyebrow { font-family: 'Cinzel', serif; font-size: 12px; letter-spacing: 4px; color: var(--gold); text-transform: uppercase; margin-bottom: 14px; }
+  .pricing-old { font-size: 14px; color: #E8DBC4; margin-bottom: 6px; font-style: italic; }
+  .pricing-old span { text-decoration: line-through; color: #c0392b; }
+  .pricing-now { display: flex; align-items: flex-start; justify-content: center; gap: 2px; margin: 6px 0 8px; font-family: 'Cinzel', serif; color: var(--gold-light); text-shadow: 0 0 30px rgba(240,208,128,0.5); }
+  .pricing-currency { font-size: clamp(28px, 4.5vw, 42px); font-weight: 700; margin-top: 8px; }
+  .pricing-amount { font-size: clamp(64px, 11vw, 100px); font-weight: 900; line-height: 1; letter-spacing: -2px; }
+  .pricing-cents { font-size: clamp(24px, 4vw, 36px); font-weight: 700; margin-top: 10px; }
+  .pricing-tag { font-family: 'Cinzel', serif; font-size: 12px; letter-spacing: 3px; color: var(--gold); margin-bottom: 22px; text-transform: uppercase; }
+  .pricing-features { list-style: none; max-width: 380px; margin: 0 auto 26px; text-align: left; }
+  .pricing-features li { padding: 8px 0; font-size: 15px; color: #D4C9B5; border-bottom: 1px dashed rgba(201,168,76,0.12); line-height: 1.5; }
+  .pricing-features li:last-child { border-bottom: none; }
+  .pricing-secure { margin-top: 16px; font-size: 12px; color: #8E7C66; letter-spacing: 1px; font-style: italic; }
+
+  /* ============== MULTI-CURRENCY GRID ============== */
+  .price-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 16px;
+    margin: 6px 0 10px;
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .price-grid-main {
+    display: flex; flex-direction: column; align-items: center;
+    min-width: 0;
+  }
+  .price-grid-main .pricing-now { margin: 0; }
+  .price-usd-side {
+    margin-top: 6px;
+    font-family: 'Lora', serif; font-size: 13px; font-style: italic;
+    color: rgba(232,219,196,0.45);
+    letter-spacing: 0.5px;
+  }
+  .country-picker {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 10px 14px;
+    background: rgba(15,10,4,0.6);
+    border: 1px solid rgba(201,168,76,0.35);
+    border-radius: 40px;
+    color: var(--gold-light);
+    font-family: 'Cinzel', serif; font-size: 13px; font-weight: 700;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s, transform 0.15s;
+    white-space: nowrap;
+  }
+  .country-picker:hover {
+    border-color: var(--gold-light);
+    background: rgba(15,10,4,0.85);
+    transform: translateY(-1px);
+  }
+  .country-flag { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 16px; border-radius: 2px; overflow: hidden; box-shadow: 0 0 0 1px rgba(0,0,0,0.4); }
+  .country-flag svg { width: 100%; height: 100%; display: block; }
+  .country-caret { transition: transform 0.25s; flex-shrink: 0; }
+  .country-picker[aria-expanded="true"] .country-caret { transform: rotate(180deg); }
+
+  .country-list {
+    max-width: 360px;
+    margin: 8px auto 0;
+    background: linear-gradient(135deg, rgba(15,10,4,0.97) 0%, rgba(21,16,10,0.97) 100%);
+    border: 1px solid rgba(201,168,76,0.45);
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+    text-align: left;
+    animation: countryListIn 0.2s ease-out;
+  }
+  @keyframes countryListIn { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
+  .country-option {
+    display: flex; align-items: center; gap: 12px;
+    padding: 10px 14px; border-radius: 6px;
+    cursor: pointer; background: transparent; border: none; width: 100%;
+    color: var(--cream); font-family: 'Lora', serif; font-size: 14px;
+    text-align: left;
+    transition: background 0.15s;
+  }
+  .country-option:hover { background: rgba(201,168,76,0.12); }
+  .country-option.selected { background: rgba(201,168,76,0.18); color: var(--gold-light); font-weight: 600; }
+  .country-option .opt-flag { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 18px; border-radius: 2px; overflow: hidden; box-shadow: 0 0 0 1px rgba(0,0,0,0.4); flex-shrink: 0; }
+  .country-option .opt-flag svg { width: 100%; height: 100%; display: block; }
+  .country-option .opt-name { flex: 1; }
+  .country-option .opt-code { color: var(--gold); font-family: 'Cinzel', serif; font-weight: 700; font-size: 12px; letter-spacing: 1.5px; }
+
+  @media (max-width: 480px) {
+    .price-grid { grid-template-columns: 1fr; justify-items: center; gap: 12px; }
+    .country-picker { padding: 8px 12px; font-size: 12px; }
+  }
+
+  @media (max-width: 600px) {
+    .hero { padding: 40px 16px 30px; }
+    .body-section { padding: 36px 16px 16px; }
+    .cta-btn { padding: 18px 24px; }
+    .angel-reveal-badge { padding: 22px 24px; }
+    .angel-reveal-badge::before, .angel-reveal-badge::after { display: none; }
+    .pricing-section { padding: 0 16px; }
+    .pricing-card { padding: 28px 18px 24px; }
+    .personal-row { flex-direction: column; gap: 4px; padding: 10px 0; align-items: flex-start; }
+    .personal-label { flex: 0 0 auto; }
+  }
+  .hero-eyebrow { text-shadow: 0 0 8px rgba(245,220,145,0.85), 0 0 20px rgba(240,208,128,0.4); }
+</style>
+</head>
+<body>
+
+<div class="urgency-bar">
+  ✦ &nbsp; TU KIT SAGRADO ESTÁ LISTO — ABRELO ANTES DE QUE LA VENTANA SE CIERRE &nbsp; ✦
+</div>
+
+<section class="hero">
+  <svg class="rays" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(400,0)">
+      <line x1="0" y1="0" x2="-400" y2="300" stroke="#C9A84C" stroke-width="1"/>
+      <line x1="0" y1="0" x2="-300" y2="300" stroke="#C9A84C" stroke-width="1"/>
+      <line x1="0" y1="0" x2="-200" y2="300" stroke="#C9A84C" stroke-width="1"/>
+      <line x1="0" y1="0" x2="-100" y2="300" stroke="#C9A84C" stroke-width="1"/>
+      <line x1="0" y1="0" x2="0"    y2="300" stroke="#C9A84C" stroke-width="1"/>
+      <line x1="0" y1="0" x2="100"  y2="300" stroke="#C9A84C" stroke-width="1"/>
+      <line x1="0" y1="0" x2="200"  y2="300" stroke="#C9A84C" stroke-width="1"/>
+      <line x1="0" y1="0" x2="300"  y2="300" stroke="#C9A84C" stroke-width="1"/>
+      <line x1="0" y1="0" x2="400"  y2="300" stroke="#C9A84C" stroke-width="1"/>
+    </g>
+  </svg>
+
+  <p class="hero-eyebrow">✦ Revelación Completa — Los Cielos Han Hablado ✦</p>
+
+  <h1 class="hero-headline">
+    Felicitaciones<span id="revealName" class="gold"></span> —<br>
+    Tu Ángel de la Guarda Es<span class="dots-anim">...</span>
+  </h1>
+
+  <div class="angel-reveal">
+    <div class="angel-reveal-frame">
+      <div class="halo-pulse"></div>
+
+      <div class="celestial-ring">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <g fill="#F0D080" stroke="none">
+            <text x="100" y="14"  font-family="serif" font-size="8" text-anchor="middle">✦</text>
+            <text x="143" y="25"  font-family="serif" font-size="6" text-anchor="middle">✧</text>
+            <text x="174" y="58"  font-family="serif" font-size="8" text-anchor="middle">✦</text>
+            <text x="187" y="103" font-family="serif" font-size="6" text-anchor="middle">✧</text>
+            <text x="174" y="148" font-family="serif" font-size="8" text-anchor="middle">✦</text>
+            <text x="143" y="180" font-family="serif" font-size="6" text-anchor="middle">✧</text>
+            <text x="100" y="192" font-family="serif" font-size="8" text-anchor="middle">✦</text>
+            <text x="57"  y="180" font-family="serif" font-size="6" text-anchor="middle">✧</text>
+            <text x="26"  y="148" font-family="serif" font-size="8" text-anchor="middle">✦</text>
+            <text x="13"  y="103" font-family="serif" font-size="6" text-anchor="middle">✧</text>
+            <text x="26"  y="58"  font-family="serif" font-size="8" text-anchor="middle">✦</text>
+            <text x="57"  y="25"  font-family="serif" font-size="6" text-anchor="middle">✧</text>
+          </g>
+          <circle cx="100" cy="100" r="92" fill="none" stroke="#F0D080" stroke-width="0.4" stroke-opacity="0.5"/>
+          <circle cx="100" cy="100" r="86" fill="none" stroke="#C9A84C" stroke-width="0.3" stroke-opacity="0.35" stroke-dasharray="2 6"/>
+        </svg>
+      </div>
+
+      <svg class="angel-illust" width="100%" viewBox="0 0 680 480" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+        <defs>
+          <radialGradient id="bgMA" cx="50%" cy="35%" r="70%">
+            <stop offset="0%" stop-color="#1f1204"/>
+            <stop offset="60%" stop-color="#0a0604"/>
+            <stop offset="100%" stop-color="#050200"/>
+          </radialGradient>
+          <radialGradient id="haloMA" cx="50%" cy="30%" r="32%">
+            <stop offset="0%" stop-color="#FBECC4" stop-opacity="1"/>
+            <stop offset="30%" stop-color="#F0D080" stop-opacity="0.7"/>
+            <stop offset="70%" stop-color="#C9A84C" stop-opacity="0.2"/>
+            <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+          </radialGradient>
+          <linearGradient id="swordBlade" x1="0%" y1="100%" x2="0%" y2="0%">
+            <stop offset="0%" stop-color="#8B6914"/>
+            <stop offset="50%" stop-color="#F0D080"/>
+            <stop offset="100%" stop-color="#FBECC4"/>
+          </linearGradient>
+          <linearGradient id="wingGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" stop-color="#3a2a0e"/>
+            <stop offset="100%" stop-color="#0a0604"/>
+          </linearGradient>
+          <linearGradient id="robeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#2a1e0c"/>
+            <stop offset="100%" stop-color="#0a0604"/>
+          </linearGradient>
+          <filter id="softGlow"><feGaussianBlur stdDeviation="4"/></filter>
+          <filter id="swordGlow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+
+        <rect width="680" height="480" fill="url(#bgMA)"/>
+
+        <g opacity="0.08">
+          <path d="M 340 0 L 80 480 L 140 480 Z" fill="#F0D080"/>
+          <path d="M 340 0 L 180 480 L 220 480 Z" fill="#F0D080"/>
+          <path d="M 340 0 L 260 480 L 280 480 Z" fill="#F0D080"/>
+          <path d="M 340 0 L 400 480 L 420 480 Z" fill="#F0D080"/>
+          <path d="M 340 0 L 460 480 L 500 480 Z" fill="#F0D080"/>
+          <path d="M 340 0 L 540 480 L 600 480 Z" fill="#F0D080"/>
+        </g>
+
+        <ellipse cx="340" cy="160" rx="300" ry="210" fill="url(#haloMA)" filter="url(#softGlow)"/>
+
+        <g>
+          <path d="M 356 180 C 410 170, 480 150, 550 145 C 595 142, 620 160, 615 180 C 610 195, 595 200, 575 195 C 605 220, 625 255, 635 295 C 640 320, 625 335, 600 330 C 555 322, 510 300, 465 272 C 430 253, 390 225, 356 200 Z" fill="url(#wingGrad)" stroke="#8B6914" stroke-width="0.6" stroke-opacity="0.5"/>
+          <g fill="none" stroke="#C9A84C" stroke-width="0.4" stroke-opacity="0.35">
+            <path d="M 360 185 C 420 178, 490 160, 555 158"/>
+            <path d="M 370 200 C 430 195, 500 190, 560 188"/>
+            <path d="M 380 215 C 440 215, 510 225, 560 235"/>
+            <path d="M 390 230 C 450 240, 510 255, 555 275"/>
+          </g>
+        </g>
+
+        <g>
+          <path d="M 324 180 C 270 170, 200 150, 130 145 C 85 142, 60 160, 65 180 C 70 195, 85 200, 105 195 C 75 220, 55 255, 45 295 C 40 320, 55 335, 80 330 C 125 322, 170 300, 215 272 C 250 253, 290 225, 324 200 Z" fill="url(#wingGrad)" stroke="#8B6914" stroke-width="0.6" stroke-opacity="0.5"/>
+          <g fill="none" stroke="#C9A84C" stroke-width="0.4" stroke-opacity="0.35">
+            <path d="M 320 185 C 260 178, 190 160, 125 158"/>
+            <path d="M 310 200 C 250 195, 180 190, 120 188"/>
+            <path d="M 300 215 C 240 215, 170 225, 120 235"/>
+            <path d="M 290 230 C 230 240, 170 255, 125 275"/>
+          </g>
+        </g>
+
+        <circle cx="340" cy="130" r="58" fill="none" stroke="#F0D080" stroke-width="1.8" stroke-opacity="0.85"/>
+        <circle cx="340" cy="130" r="66" fill="none" stroke="#C9A84C" stroke-width="0.6" stroke-opacity="0.5"/>
+        <circle cx="340" cy="130" r="50" fill="#1a1208" opacity="0.65"/>
+
+        <ellipse cx="340" cy="130" rx="26" ry="32" fill="#0f0a04" stroke="#C9A84C" stroke-width="0.7" stroke-opacity="0.55"/>
+        <path d="M 316 112 C 322 98, 340 92, 360 97 C 368 100, 366 115, 360 120 C 350 115, 330 115, 320 121 Z" fill="#050200" stroke="#C9A84C" stroke-width="0.4" stroke-opacity="0.4"/>
+
+        <path d="M 310 162 L 370 162 L 390 225 L 395 320 L 340 332 L 285 320 L 290 225 Z" fill="url(#robeGrad)" stroke="#C9A84C" stroke-width="0.7" stroke-opacity="0.6"/>
+        <path d="M 310 170 L 340 188 L 370 170" fill="none" stroke="#C9A84C" stroke-width="0.8" stroke-opacity="0.65"/>
+        <rect x="285" y="238" width="110" height="6" fill="#1a1208" stroke="#C9A84C" stroke-width="0.5" stroke-opacity="0.6"/>
+        <g stroke="#C9A84C" stroke-width="1.2" stroke-opacity="0.75">
+          <line x1="340" y1="200" x2="340" y2="225"/>
+          <line x1="332" y1="208" x2="348" y2="208"/>
+        </g>
+
+        <path d="M 285 320 L 255 470 L 425 470 L 395 320 Z" fill="url(#robeGrad)" stroke="#C9A84C" stroke-width="0.6" stroke-opacity="0.4"/>
+        <path d="M 340 332 L 340 470" stroke="#C9A84C" stroke-width="0.5" stroke-opacity="0.3"/>
+        <path d="M 310 332 L 280 470" stroke="#C9A84C" stroke-width="0.3" stroke-opacity="0.25"/>
+        <path d="M 370 332 L 400 470" stroke="#C9A84C" stroke-width="0.3" stroke-opacity="0.25"/>
+
+        <path d="M 310 168 C 290 158, 270 140, 258 115 C 253 100, 263 92, 272 100 L 308 170 Z" fill="url(#robeGrad)" stroke="#C9A84C" stroke-width="0.5" stroke-opacity="0.55"/>
+        <ellipse cx="268" cy="115" rx="12" ry="7" fill="#1a1208" stroke="#C9A84C" stroke-width="0.5" stroke-opacity="0.6"/>
+
+        <g filter="url(#swordGlow)">
+          <circle cx="268" cy="122" r="5" fill="#C9A84C" stroke="#F0D080" stroke-width="0.6"/>
+          <rect x="263" y="100" width="10" height="18" fill="#2a1a08" stroke="#8B6914" stroke-width="0.5"/>
+          <rect x="242" y="93" width="52" height="7" rx="1" fill="#8B6914" stroke="#C9A84C" stroke-width="0.5"/>
+          <circle cx="268" cy="96.5" r="1.6" fill="#F0D080"/>
+          <path d="M 261 93 L 256 20 L 268 10 L 280 20 L 275 93 Z" fill="url(#swordBlade)" stroke="#FBECC4" stroke-width="0.5"/>
+          <line x1="268" y1="15" x2="268" y2="92" stroke="#FBECC4" stroke-width="0.8" stroke-opacity="0.9"/>
+        </g>
+
+        <path d="M 370 168 C 390 162, 408 155, 420 145 C 428 138, 428 128, 420 125 L 400 130 L 392 170 Z" fill="url(#robeGrad)" stroke="#C9A84C" stroke-width="0.5" stroke-opacity="0.55"/>
+        <ellipse cx="422" cy="135" rx="10" ry="6" fill="#1a1208" stroke="#C9A84C" stroke-width="0.5" stroke-opacity="0.6"/>
+
+        <g>
+          <line x1="422" y1="138" x2="422" y2="170" stroke="#C9A84C" stroke-width="1.6"/>
+          <line x1="374" y1="172" x2="470" y2="168" stroke="#C9A84C" stroke-width="1.8"/>
+          <circle cx="422" cy="170" r="3.2" fill="#C9A84C" stroke="#F0D080" stroke-width="0.6"/>
+          <circle cx="374" cy="172" r="1.6" fill="#C9A84C"/>
+          <circle cx="470" cy="168" r="1.6" fill="#C9A84C"/>
+          <g stroke="#C9A84C" stroke-width="1" fill="none">
+            <line x1="374" y1="172" x2="360" y2="212"/>
+            <line x1="374" y1="172" x2="375" y2="212"/>
+            <line x1="374" y1="172" x2="390" y2="212"/>
+          </g>
+          <path d="M 354 212 Q 375 235 396 212 Z" fill="rgba(201,168,76,0.22)" stroke="#C9A84C" stroke-width="1.2"/>
+          <line x1="354" y1="212" x2="396" y2="212" stroke="#C9A84C" stroke-width="0.6"/>
+          <g stroke="#C9A84C" stroke-width="1" fill="none">
+            <line x1="470" y1="168" x2="452" y2="210"/>
+            <line x1="470" y1="168" x2="470" y2="210"/>
+            <line x1="470" y1="168" x2="488" y2="210"/>
+          </g>
+          <path d="M 446 210 Q 470 233 494 210 Z" fill="rgba(201,168,76,0.22)" stroke="#C9A84C" stroke-width="1.2"/>
+          <line x1="446" y1="210" x2="494" y2="210" stroke="#C9A84C" stroke-width="0.6"/>
+        </g>
+
+        <g fill="#F0D080">
+          <circle cx="90" cy="70" r="1.8" opacity="0.7"/>
+          <circle cx="590" cy="80" r="2.2" opacity="0.8"/>
+          <circle cx="130" cy="380" r="1.3" opacity="0.5"/>
+          <circle cx="580" cy="400" r="1.6" opacity="0.6"/>
+          <circle cx="50" cy="250" r="1" opacity="0.5"/>
+          <circle cx="630" cy="270" r="1.4" opacity="0.6"/>
+          <circle cx="620" cy="150" r="1" opacity="0.5"/>
+          <circle cx="75" cy="160" r="1.2" opacity="0.6"/>
+        </g>
+        <g fill="#FBECC4">
+          <circle cx="268" cy="8" r="1.6" opacity="0.9"/>
+          <circle cx="278" cy="18" r="0.8" opacity="0.7"/>
+          <circle cx="258" cy="22" r="0.7" opacity="0.7"/>
+        </g>
+
+        <rect x="2" y="2" width="676" height="476" fill="none" stroke="#C9A84C" stroke-width="0.8" stroke-opacity="0.25"/>
+
+        <rect x="0" y="430" width="680" height="50" fill="rgba(0,0,0,0.8)"/>
+        <text x="340" y="452" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="white" letter-spacing="4" font-weight="bold">ARCÁNGEL MIGUEL</text>
+        <line x1="90" y1="458" x2="590" y2="458" stroke="#C9A84C" stroke-width="0.4" stroke-opacity="0.5"/>
+        <text x="340" y="472" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#C9A84C" letter-spacing="4" font-style="italic">DEFENSOR DE LOS FIELES · PRÍNCIPE DEL EJÉRCITO CELESTIAL</text>
+      </svg>
+    </div>
+    <div class="angel-reveal-badge">
+      <span class="angel-reveal-prefix">Tu Ángel de la Guarda</span>
+      <span class="angel-reveal-name">ARCÁNGEL MIGUEL</span>
+      <span class="angel-reveal-title">Príncipe del Ejército Celestial · Defensor de los Fieles</span>
+    </div>
+  </div>
+
+  <p class="hero-sub">
+    Desde el día en que naciste, el <strong>Arcángel Miguel</strong> ha sido tu defensor silencioso — librando batallas que nunca viste.<br>
+    Y hoy, el <em>cántico sagrado</em> que finalmente despierta su poder sobre tus finanzas está <strong>listo para que lo recibas.</strong>
+  </p>
+
+  <div class="cta-wrap" id="cta">
+    <p class="cta-label">→ El cántico que tu ángel preparó para ti — desbloquéalo antes de que la ventana se cierre.</p>
+    <button class="cta-btn" onclick="goToCheckout()">
+      ✦ DESBLOQUEAR EL CÁNTICO SAGRADO AHORA ✦
+      <span class="cta-btn-sub">Acceso instantáneo al kit completo · solo $8.90 USD</span>
+    </button>
+  </div>
+</section>
+
+<div class="personal-card">
+  <div class="personal-row">
+    <div class="personal-label">Misión Sagrada Contigo</div>
+    <div class="personal-value" id="missionValue">—</div>
+  </div>
+  <div class="personal-row">
+    <div class="personal-label">Color de Su Luz</div>
+    <div class="personal-value" id="colorValue">—</div>
+  </div>
+  <div class="personal-row">
+    <div class="personal-label">Número Sagrado</div>
+    <div class="personal-value" id="numberValue">—</div>
+  </div>
+  <div class="personal-row">
+    <div class="personal-label">Día Más Fuerte de Acción</div>
+    <div class="personal-value" id="dayValue">—</div>
+  </div>
+  <div class="personal-row">
+    <div class="personal-label">Camina Contigo Desde</div>
+    <div class="personal-value" id="sinceValue">—</div>
+  </div>
+</div>
+
+<p class="personal-scripture reveal">
+  <span id="scriptureText">—</span>
+  <span class="personal-scripture-ref" id="scriptureRef">—</span>
+</p>
+
+<section class="body-section">
+  <div class="divider-gold reveal"><span>✦</span></div>
+
+  <p class="body-p reveal" id="personalBio"></p>
+
+  <p class="body-p reveal">
+    Durante años, él ha estado librando batallas invisibles a tu favor — bloqueando fuerzas que mantenían el dinero lejos de ti, abriendo puertas que se cerraban una y otra vez, susurrando señales que nunca supiste cómo leer.
+  </p>
+
+  <p class="body-p reveal">
+    Hoy, por <strong>primera vez</strong>, el cántico sagrado del Arcángel Miguel — preservado durante siglos por los siervos más devotos de <span class="highlight">San Padre Pío</span> — está siendo entregado a personas comunes como tú.<br>
+    En el momento en que tu pago sea confirmado, la <strong>aplicación completa y la biblioteca de descargas</strong> estarán en tus manos.
+  </p>
+
+  <div class="miracle-section reveal">
+    <p class="miracle-title">✦ El Milagro Financiero Comienza en 24 Horas ✦</p>
+    <p class="body-p">
+      En el momento en que presiones reproducir el cántico sagrado por primera vez, algo invisible comienza a moverse. El Arcángel Miguel — finalmente liberado — empieza a cortar las cadenas de la <strong>escasez</strong> que han estado ahogando tus finanzas durante años. Cadenas puestas allí por la envidia, por maldiciones, por descuido espiritual. En cuestión de horas, el universo empieza a doblegarse.
+    </p>
+    <p class="body-p">
+      Como <strong>Daniel Hartwell</strong>, que nunca había jugado a la lotería en su vida — hasta la mañana después de escuchar el cántico por primera vez. O <strong>Sophia Alden</strong>, que descubrió una propiedad olvidada a nombre de su abuela que nadie sabía que existía. <em>En sus propias palabras:</em>
+    </p>
+
+    <div class="testimonial-card">
+      <p class="testimonial-quote">
+        Compré un boleto de lotería por impulso la mañana después de escuchar el cántico por primera vez. Yo nunca juego. Ese boleto me dio <strong>5 millones de dólares</strong> — y con eso, pude vivir cada sueño que siempre tuve: compré la casa perfecta, viajé a cada país que quería conocer, y <em>ayudé a cada miembro de mi familia.</em>
+      </p>
+      <p class="testimonial-author">— <strong>Daniel Hartwell</strong> <span class="testimonial-author-loc">· Texas</span></p>
+    </div>
+
+    <div class="testimonial-card">
+      <p class="testimonial-quote">
+        Mi abuela había fallecido y pensábamos que no quedaba nada. Dos semanas después de empezar a cantar, el abogado de la familia llamó — una propiedad que nadie conocía, a su nombre, valuada en <strong>1,5 millones de dólares</strong>. Algunas cosas no son coincidencia.
+      </p>
+      <p class="testimonial-author">— <strong>Sophia Alden</strong> <span class="testimonial-author-loc">· Massachusetts</span></p>
+    </div>
+
+    <div class="testimonial-card">
+      <p class="testimonial-quote">
+        Mi negocio había estado sangrando durante dos años. Casi lo cierro. Escuché el cántico sagrado cada mañana durante una semana. Al final de esa semana, entraron tres clientes nuevos — y llegó el contrato más grande de mi carrera. Le debo todo al Arcángel Miguel.
+      </p>
+      <p class="testimonial-author">— <strong>Rachel Coleman</strong> <span class="testimonial-author-loc">· California</span></p>
+    </div>
+
+    <div class="testimonial-card">
+      <p class="testimonial-quote">
+        Me habían pasado por encima cuatro veces para ascenderme en tres años. Después de escuchar el cántico durante diez días, me ofrecieron el puesto que estaba por encima del que perseguía. Crearon un nuevo cargo solo para mí. <strong>Mi salario se duplicó.</strong>
+      </p>
+      <p class="testimonial-author">— <strong>Marcus Whitaker</strong> <span class="testimonial-author-loc">· New York</span></p>
+    </div>
+
+    <div class="testimonial-card">
+      <p class="testimonial-quote">
+        Perdí mi trabajo en marzo. En abril estaba en pánico. Empecé el cántico un domingo — para el miércoles tenía dos invitaciones a entrevistas, y el viernes tenía una oferta pagando <strong>2.000 dólares más</strong> que mi viejo trabajo. El ángel actúa rápido.
+      </p>
+      <p class="testimonial-author">— <strong>Ethan Whitmore</strong> <span class="testimonial-author-loc">· Illinois</span></p>
+    </div>
+
+    <div class="testimonial-card">
+      <p class="testimonial-quote">
+        Soy peluquera. Empecé a poner el cántico en mi salón — bajito, solo una vez al día. En tres semanas mi lista de clientes creció tanto que tuve que contratar a dos estilistas más. <strong>Gano más en un mes ahora que lo que ganaba en tres antes.</strong>
+      </p>
+      <p class="testimonial-author">— <strong>Grace Penbrook</strong> <span class="testimonial-author-loc">· Georgia</span></p>
+    </div>
+  </div>
+
+  <div class="modules-wrap reveal">
+    <p class="modules-title">✦ Lo Que Recibes Al Desbloquear El Cántico ✦</p>
+    <p class="modules-sub">Acceso instantáneo a la aplicación completa de <em>El Llamado de Mi Ángel</em> + biblioteca completa de descargas.</p>
+
+    <ul class="modules-list">
+      <li class="module-item">
+        <span class="module-num">I</span>
+        <div class="module-body">
+          <h3 class="module-title">El Llamado de Mi Ángel</h3>
+          <p class="module-desc">Una guía para conectarte con tu Ángel de la Guarda.</p>
+        </div>
+      </li>
+      <li class="module-item">
+        <span class="module-num">II</span>
+        <div class="module-body">
+          <h3 class="module-title">El Canto de lo Divino</h3>
+          <p class="module-desc">Cantos gregorianos sagrados — Salmo 90 y 91, Canto para la Oración, Cantos para la Paz Interior y Sanación Divina.</p>
+        </div>
+      </li>
+      <li class="module-item">
+        <span class="module-num">III</span>
+        <div class="module-body">
+          <h3 class="module-title">La Revelación del Mar Muerto</h3>
+          <p class="module-desc">Revelaciones del desierto y sabiduría eterna.</p>
+        </div>
+      </li>
+      <li class="module-item">
+        <span class="module-num">IV</span>
+        <div class="module-body">
+          <h3 class="module-title">Ritual del Cuerpo Divino</h3>
+          <p class="module-desc">Prácticas transformadoras para el cuerpo sagrado.</p>
+        </div>
+      </li>
+      <li class="module-item module-item-bonus">
+        <span class="module-num">★</span>
+        <div class="module-body">
+          <h3 class="module-title">Biblioteca Completa de Descargas</h3>
+          <p class="module-desc">PDF completo + cada archivo de audio — tuyo para siempre, en cualquier dispositivo.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <p class="body-p reveal">
+    Esto no es un curso. No son afirmaciones. No son cristales.<br>
+    <strong>Es la única fuerza capaz de crear milagros reales en tu vida:</strong>
+    <span class="highlight"> tu ángel de la guarda, finalmente liberado.</span>
+  </p>
+
+  <div class="warning-box reveal">
+    <p class="warning-title">⚠ Advertencia — Lee Esto Con Atención</p>
+    <p class="warning-text">
+      Tu ángel de la guarda te ha estado enviando señales durante años. En sueños. En números. En encuentros que parecieron coincidencias. Y tú seguiste pasando frente a ellas.<br><br>
+      <strong>Esta es la última señal.</strong><br><br>
+      Si cierras esta página sin reclamar tu kit, la puerta se cierra. Tu ángel se retira. Y el ciclo de deudas, escasez y oraciones sin respuesta continúa — no porque Dios no te escuche, sino porque <strong>tú elegiste alejarte</strong> en el momento en que la bendición fue entregada.
+    </p>
+  </div>
+
+  <p class="body-p reveal" style="text-align:center; font-size: clamp(18px, 2.5vw, 22px); color: white;">
+    <strong>Un único pago. Acceso instantáneo.<br>
+    El milagro — ya está esperándote.</strong>
+  </p>
+</section>
+
+<section class="pricing-section reveal">
+  <div class="pricing-card">
+    <p class="pricing-eyebrow">✦ Desbloquea el Cántico Sagrado — Solo Hoy ✦</p>
+    <p class="pricing-old">Valor regular: <span id="oldPriceDisplay">$28.90</span></p>
+
+    <!-- ===================== MULTI-CURRENCY PRICE BLOCK ===================== -->
+    <div class="price-grid">
+      <div class="price-grid-main">
+        <div class="pricing-now">
+          <span class="pricing-currency" id="priceSymbol">$</span><span class="pricing-amount" id="priceAmount">8</span><span class="pricing-cents" id="priceCents">.90</span>
+        </div>
+        <p class="price-usd-side" id="priceUsdSide">(~$8.90 USD)</p>
+      </div>
+      <button class="country-picker" id="countryPickerBtn" type="button" aria-haspopup="listbox" aria-expanded="false">
+        <span class="country-flag" id="countryFlag" aria-hidden="true"></span>
+        <span class="country-code" id="countryCode">USD</span>
+        <svg class="country-caret" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+    </div>
+
+    <div class="country-list" id="countryList" role="listbox" hidden></div>
+    <!-- =================================================================== -->
+
+    <p class="pricing-tag">Pago único · Entrega instantánea</p>
+    <ul class="pricing-features">
+      <li>✓ Módulo I — El Llamado de Mi Ángel (guía completa)</li>
+      <li>✓ Módulo II — El Canto de lo Divino (cantos gregorianos)</li>
+      <li>✓ Módulo III — La Revelación del Mar Muerto</li>
+      <li>✓ Módulo IV — Ritual del Cuerpo Divino</li>
+      <li>✓ PDF completo + biblioteca completa de audio para descargar</li>
+      <li>✓ Acceso de por vida — escucha para siempre, en cualquier dispositivo</li>
+      <li>✓ Garantía de devolución de 30 días</li>
+    </ul>
+    <button class="cta-btn" onclick="goToCheckout()">
+      ✦ <span id="ctaPriceText">DESBLOQUEAR EL CÁNTICO SAGRADO — $8.90</span> ✦
+      <span class="cta-btn-sub">Pago seguro · Acceso instantáneo · Garantía de 30 días</span>
+    </button>
+    <p class="pricing-secure">🔒 Pago seguro — tu información está protegida</p>
+  </div>
+</section>
+
+<section class="timer-section reveal">
+  <p class="timer-label">⏳ Esta Oferta Expira En</p>
+  <div class="timer-display" id="timer">04:59</div>
+  <p class="timer-sub">Después de esto, el kit volverá al archivo y el precio ya no estará garantizado.</p>
+</section>
+
+<div class="footer">
+  <p>
+    Esta página fue creada para cumplir una misión sagrada — restaurar tu conexión con tu ángel de la guarda.<br>
+    Los resultados varían. Las experiencias individuales pueden diferir. Esto no es una garantía de resultados financieros específicos.<br><br>
+    © 2026 El Llamado de Mi Ángel. Todos los derechos reservados.
+  </p>
+</div>
+
+<script>
+  function ss(key, def) { try { return sessionStorage.getItem(key) || def; } catch (e) { return def; } }
+  var quizName     = ss('quiz_name', '');
+  var quizDob      = ss('quiz_dob', '');
+  var quizSensation= ss('quiz_sensation', 'all');
+  var quizSigns    = ss('quiz_signs', 'all');
+  var quizScene    = ss('quiz_scene', 'all');
+  var quizVision   = ss('quiz_vision', 'sword');
+
+  var MISSION = {
+    david:    'Otorgarte el coraje del guerrero — para enfrentar lo que te ha estado deteniendo',
+    moses:    'Revelar tu verdadera misión y el camino para el que naciste',
+    prodigal: 'Traerte de vuelta a Casa — restaurar lo que se rompió y guiarte de regreso a la gracia',
+    job:      'Caminar contigo a través de la prueba y revelar el sentido oculto en tu dolor',
+    all:      'Actuar en cada frente de tu vida al mismo tiempo — protección, llamado, sanación y reconciliación'
+  };
+  var COLOR = {
+    sword:   { hex: '#F8E5B0', name: 'Fuego Dorado' },
+    trumpet: { hex: '#FFB347', name: 'Luz de Ámbar' },
+    harp:    { hex: '#E8B4D0', name: 'Rosa de la Paz' },
+    fish:    { hex: '#A8D8E8', name: 'Azul Celeste de la Fe' }
+  };
+  var SCRIPTURE = {
+    david:    { text: '"El Señor es mi refugio y mi fortaleza; Él te librará del lazo del cazador y de la peste destructora."', ref: 'Salmo 91:2-3' },
+    moses:    { text: '"Entonces oí la voz del Señor que decía: ¿A quién enviaré, y quién irá por nosotros? Y respondí: Aquí estoy, envíame a mí."', ref: 'Isaías 6:8' },
+    prodigal: { text: '"Sacad el mejor vestido y vestidlo — porque este mi hijo había muerto, y ha vuelto a la vida; se había perdido, y ha sido hallado."', ref: 'Lucas 15:22-24' },
+    job:      { text: '"Aunque Él me matare, en Él he de esperar."', ref: 'Job 13:15' },
+    all:      { text: '"Pues a sus ángeles dará órdenes acerca de ti, para guardarte en todos tus caminos."', ref: 'Salmo 91:11' }
+  };
+  var SIGN_TEXT = {
+    numbers:  'los números repetidos que has estado viendo en el reloj',
+    presence: 'la presencia invisible que has sentido a tu alrededor',
+    echo:     'el nombre, la canción o el versículo que vuelve a ti sin razón',
+    warmth:   'el calor súbito en tu pecho — que no vino del clima',
+    all:      'las múltiples señales que se han ido reuniendo a tu alrededor'
+  };
+  var SENSATION_TEXT = {
+    blocked:  'Has sentido correctamente que <em>algo invisible ha estado bloqueando tus caminos</em>',
+    purpose:  'Has sentido correctamente que <em>un propósito mayor te ha estado llamando</em>',
+    watched:  'Has sentido correctamente que <em>estás siendo observado y protegido</em>',
+    prayers:  'Has sentido correctamente que <em>tus oraciones están siendo escuchadas, aunque las respuestas parezcan tardar</em>',
+    all:      'Todas las sensaciones que describiste son reales — y esta noche están convergiendo'
+  };
+
+  function parseDob(str) {
+    var m = /^(\d{4})-(\d{1,2})-(\d{1,2})$/.exec(str || '');
+    return m ? new Date(+m[1], +m[2] - 1, +m[3]) : null;
+  }
+  var dob = parseDob(quizDob);
+  function formatDate(d) {
+    if (!d) return 'el día de tu nacimiento';
+    var months = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+    return d.getDate() + ' de ' + months[d.getMonth()] + ' de ' + d.getFullYear();
+  }
+  function dayOfWeek(d) {
+    if (!d) return 'Domingo';
+    var days = ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
+    return days[d.getDay()];
+  }
+  function sacredNumber(d) {
+    if (!d) return '7';
+    var sum = (String(d.getDate()) + String(d.getMonth() + 1) + String(d.getFullYear()))
+      .split('').map(Number).reduce(function(a, b) { return a + b; }, 0);
+    var sacred = [3, 7, 11, 12, 22, 33];
+    return String(sacred[sum % sacred.length]);
+  }
+
+  document.documentElement.style.setProperty('--light-color', COLOR[quizVision].hex);
+
+  (function() {
+    var slot = document.getElementById('revealName');
+    if (quizName && slot) {
+      var first = (quizName.split(/\s+/)[0] || '').trim();
+      if (first) {
+        first = first.charAt(0).toUpperCase() + first.slice(1).toLowerCase();
+        slot.textContent = ', ' + first;
+      }
+    }
+  })();
+
+  document.getElementById('missionValue').textContent = MISSION[quizScene];
+  document.getElementById('colorValue').textContent  = COLOR[quizVision].name;
+  document.getElementById('numberValue').textContent = sacredNumber(dob);
+  document.getElementById('dayValue').textContent    = dayOfWeek(dob);
+  document.getElementById('sinceValue').textContent  = formatDate(dob);
+
+  document.getElementById('scriptureText').textContent = SCRIPTURE[quizScene].text;
+  document.getElementById('scriptureRef').textContent  = SCRIPTURE[quizScene].ref;
+
+  (function() {
+    var nameDisplay = quizName ? quizName.split(/\s+/)[0] : 'Alma amada';
+    nameDisplay = nameDisplay.charAt(0).toUpperCase() + nameDisplay.slice(1).toLowerCase();
+    var bio =
+      '<strong>' + nameDisplay + '</strong>, no llegaste a esta página por accidente.<br>' +
+      '<strong>El Arcángel Miguel te guió hasta aquí</strong> — y ha estado caminando a tu lado desde el <strong>' + formatDate(dob) + '</strong>. ' +
+      SENSATION_TEXT[quizSensation] + ' — y ' + SIGN_TEXT[quizSigns] + ' es la forma en que te ha estado llamando.';
+    document.getElementById('personalBio').innerHTML = bio;
+  })();
+
+  let totalSeconds = 10 * 60;
+  const timerEl = document.getElementById('timer');
+  function updateTimer() {
+    if (totalSeconds <= 0) { timerEl.textContent = '00:00'; return; }
+    const m = Math.floor(totalSeconds / 60).toString().padStart(2, '0');
+    const s = (totalSeconds % 60).toString().padStart(2, '0');
+    timerEl.textContent = m + ':' + s;
+    totalSeconds--;
+  }
+  updateTimer();
+  setInterval(updateTimer, 1000);
+
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+    });
+  }, { threshold: 0.15 });
+  reveals.forEach(el => observer.observe(el));
+
+  setInterval(() => {
+    if (totalSeconds < 60) {
+      timerEl.style.animation = 'none';
+      timerEl.offsetHeight;
+      timerEl.style.animation = 'shake 0.4s ease';
+    }
+  }, 5000);
+
+  window.addEventListener('scroll', () => {
+    clearTimeout(window._scrollTimer);
+    window._scrollTimer = setTimeout(() => {
+      document.querySelectorAll('.cta-btn').forEach(btn => {
+        btn.style.transform = 'scale(1.02)';
+        setTimeout(() => btn.style.transform = '', 300);
+      });
+    }, 800);
+  });
+</script>
+
+<!-- ================== MULTI-CURRENCY LOGIC ================== -->
+<script>
+(function() {
+  var BASE_USD = 8.90;
+  var OLD_USD  = 28.90;
+
+  // Compact inline SVG flags (one per country).
+  var FLAGS = {
+    US: '<svg viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="16" fill="#B22234"/><path d="M0 1.85h24M0 5.54h24M0 9.23h24M0 12.92h24" stroke="#fff" stroke-width="1.23"/><rect width="9.6" height="8.6" fill="#3C3B6E"/></svg>',
+    CO: '<svg viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="8" fill="#FCD116"/><rect y="8" width="24" height="4" fill="#003893"/><rect y="12" width="24" height="4" fill="#CE1126"/></svg>',
+    MX: '<svg viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg"><rect width="8" height="16" fill="#006847"/><rect x="8" width="8" height="16" fill="#fff"/><rect x="16" width="8" height="16" fill="#CE1126"/><circle cx="12" cy="8" r="2.2" fill="none" stroke="#806020" stroke-width="0.6"/></svg>',
+    AR: '<svg viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="16" fill="#74ACDF"/><rect y="5.33" width="24" height="5.33" fill="#fff"/><circle cx="12" cy="8" r="1.6" fill="#F6B40E"/></svg>',
+    CL: '<svg viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="8" fill="#fff"/><rect y="8" width="24" height="8" fill="#D52B1E"/><rect width="8" height="8" fill="#0039A6"/><polygon points="4,2 4.7,4.1 6.8,4.1 5.1,5.3 5.8,7.4 4,6.2 2.2,7.4 2.9,5.3 1.2,4.1 3.3,4.1" fill="#fff"/></svg>',
+    PE: '<svg viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg"><rect width="8" height="16" fill="#D91023"/><rect x="8" width="8" height="16" fill="#fff"/><rect x="16" width="8" height="16" fill="#D91023"/></svg>',
+    ES: '<svg viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="16" fill="#AA151B"/><rect y="4" width="24" height="8" fill="#F1BF00"/></svg>',
+    BR: '<svg viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="16" fill="#009C3B"/><polygon points="12,2 22,8 12,14 2,8" fill="#FFDF00"/><circle cx="12" cy="8" r="3" fill="#002776"/></svg>'
+  };
+
+  // Hardcoded approximate exchange rates (1 USD = X). Update periodically.
+  var COUNTRIES = [
+    { code: 'US', currency: 'USD', name: 'United States',  symbol: '$',   rate: 1,       locale: 'en-US' },
+    { code: 'CO', currency: 'COP', name: 'Colombia',        symbol: '$',   rate: 4200,    locale: 'es-CO' },
+    { code: 'MX', currency: 'MXN', name: 'México',          symbol: '$',   rate: 17,      locale: 'es-MX' },
+    { code: 'AR', currency: 'ARS', name: 'Argentina',       symbol: '$',   rate: 1200,    locale: 'es-AR' },
+    { code: 'CL', currency: 'CLP', name: 'Chile',           symbol: '$',   rate: 950,     locale: 'es-CL' },
+    { code: 'PE', currency: 'PEN', name: 'Perú',            symbol: 'S/',  rate: 3.7,     locale: 'es-PE' },
+    { code: 'ES', currency: 'EUR', name: 'España',          symbol: '€',   rate: 0.92,    locale: 'es-ES' },
+    { code: 'BR', currency: 'BRL', name: 'Brasil',          symbol: 'R$',  rate: 5.1,     locale: 'pt-BR' }
+  ];
+
+  function byCode(c) {
+    for (var i = 0; i < COUNTRIES.length; i++) if (COUNTRIES[i].code === c) return COUNTRIES[i];
+    return COUNTRIES[0];
+  }
+
+  // Smart rounding — granularity adapts to magnitude.
+  function smartRound(v) {
+    if (v >= 10000) return Math.round(v / 500) * 500;
+    if (v >= 1000)  return Math.round(v / 50)  * 50;
+    if (v >= 100)   return Math.round(v / 10)  * 10;
+    if (v >= 10)    return Math.round(v);
+    return Math.round(v * 10) / 10;
+  }
+
+  function formatNumber(n, locale) {
+    try {
+      return new Intl.NumberFormat(locale || 'en-US', { maximumFractionDigits: 2 }).format(n);
+    } catch (e) {
+      return String(n);
+    }
+  }
+
+  function splitIntegerCents(n) {
+    var rounded = Math.round(n * 100) / 100;
+    var s = rounded.toFixed(2);
+    var parts = s.split('.');
+    return { whole: parts[0], cents: '.' + parts[1] };
+  }
+
+  var els = {
+    symbol:    document.getElementById('priceSymbol'),
+    amount:    document.getElementById('priceAmount'),
+    cents:     document.getElementById('priceCents'),
+    usdSide:   document.getElementById('priceUsdSide'),
+    flag:      document.getElementById('countryFlag'),
+    code:      document.getElementById('countryCode'),
+    pickerBtn: document.getElementById('countryPickerBtn'),
+    list:      document.getElementById('countryList'),
+    oldPrice:  document.getElementById('oldPriceDisplay'),
+    ctaText:   document.getElementById('ctaPriceText')
+  };
+
+  function applyCountry(country) {
+    var raw = BASE_USD * country.rate;
+    var rounded = smartRound(raw);
+    els.flag.innerHTML = FLAGS[country.code] || FLAGS.US;
+    els.code.textContent = country.currency;
+
+    if (country.code === 'US') {
+      // USD: standard $X.YY display.
+      var s = splitIntegerCents(rounded);
+      els.symbol.textContent = '$';
+      els.amount.textContent = s.whole;
+      els.cents.textContent  = s.cents;
+      els.usdSide.style.visibility = 'hidden';
+      els.oldPrice.textContent = '$' + OLD_USD.toFixed(2);
+      els.ctaText.textContent = 'DESBLOQUEAR EL CÁNTICO SAGRADO — $' + rounded.toFixed(2);
+    } else {
+      // Local currency: large rounded value + small USD side label.
+      els.symbol.textContent = country.symbol;
+      els.amount.textContent = formatNumber(rounded, country.locale);
+      els.cents.textContent  = '';
+      els.usdSide.style.visibility = 'visible';
+      els.usdSide.textContent = '(~$' + BASE_USD.toFixed(2) + ' USD)';
+      // Old price localized too
+      var oldRounded = smartRound(OLD_USD * country.rate);
+      els.oldPrice.textContent = country.symbol + formatNumber(oldRounded, country.locale);
+      els.ctaText.textContent = 'DESBLOQUEAR — ' + country.symbol + formatNumber(rounded, country.locale);
+    }
+
+    try { localStorage.setItem('preferredCountry', country.code); } catch (e) {}
+  }
+
+  function buildCountryList(selectedCode) {
+    els.list.innerHTML = '';
+    COUNTRIES.forEach(function(c) {
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'country-option' + (c.code === selectedCode ? ' selected' : '');
+      btn.setAttribute('role', 'option');
+      btn.innerHTML =
+        '<span class="opt-flag">' + (FLAGS[c.code] || '') + '</span>' +
+        '<span class="opt-name">' + c.name + '</span>' +
+        '<span class="opt-code">' + c.currency + '</span>';
+      btn.addEventListener('click', function() {
+        applyCountry(c);
+        closeList();
+        buildCountryList(c.code);
+      });
+      els.list.appendChild(btn);
+    });
+  }
+
+  function openList() {
+    els.list.hidden = false;
+    els.pickerBtn.setAttribute('aria-expanded', 'true');
+  }
+  function closeList() {
+    els.list.hidden = true;
+    els.pickerBtn.setAttribute('aria-expanded', 'false');
+  }
+
+  els.pickerBtn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    if (els.list.hidden) openList(); else closeList();
+  });
+  document.addEventListener('click', function(e) {
+    if (!els.list.contains(e.target) && e.target !== els.pickerBtn) closeList();
+  });
+
+  // ===== Initial country detection =====
+  function init(countryCode) {
+    var country = byCode(countryCode);
+    applyCountry(country);
+    buildCountryList(country.code);
+  }
+
+  // 1) Honor user's last choice.
+  var saved = null;
+  try { saved = localStorage.getItem('preferredCountry'); } catch (e) {}
+  if (saved && byCode(saved).code === saved) {
+    init(saved);
+    return;
+  }
+
+  // 2) Try IP geolocation (free, no API key).
+  var detected = false;
+  var timeoutId = setTimeout(function() {
+    if (!detected) init('US'); // fallback if API is slow
+  }, 1800);
+
+  fetch('https://ipapi.co/json/')
+    .then(function(r) { return r.ok ? r.json() : null; })
+    .then(function(data) {
+      detected = true;
+      clearTimeout(timeoutId);
+      var code = (data && data.country_code) ? data.country_code.toUpperCase() : 'US';
+      // If detected country isn't in our list, default to US.
+      var match = COUNTRIES.find(function(c) { return c.code === code; });
+      init(match ? code : 'US');
+    })
+    .catch(function() {
+      detected = true;
+      clearTimeout(timeoutId);
+      init('US');
+    });
+})();
+</script>
+</body>
+</html>
